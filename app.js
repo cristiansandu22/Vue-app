@@ -16,11 +16,11 @@ const vm = Vue.createApp({
       this.rotateZ     = 0;
     },
 
-    calculate() {
-      const zAxis = Number(this.rotateZ)
-      const yAxis = Number(this.rotateY)
-      return this.rotateX = zAxis + yAxis
-    },
+    // calculate() {
+    //   const zAxis = Number(this.rotateZ)
+    //   const yAxis = Number(this.rotateY)
+    //   return this.rotateX = zAxis + yAxis
+    // },
 
     //copy to clipboard
     async copy() {
