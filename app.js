@@ -22,6 +22,7 @@ const vm = Vue.createApp({
       return this.rotateX = zAxis + yAxis
     },
 
+    //copy to clipboard
     async copy() {
       let text = `transform: ${this.box.transform}`;
       await navigator.clipboard.writeText(text);
